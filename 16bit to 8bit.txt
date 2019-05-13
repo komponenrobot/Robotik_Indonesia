@@ -1,0 +1,6 @@
+uint16_t data16bit;
+uint8_t data8bit[2];
+
+// data 8bit bagian atas
+data8bit[0] = data16bit >> 8;
+data8bit[1] = datta16bit & 0xFF;
